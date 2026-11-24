@@ -1,0 +1,14 @@
+/about /about.html 200
+/contact /contact.html 200
+/insurance /insurance.html 200
+/insurance/life-insurance /insurance/life-insurance.html 200
+/insurance/health-insurance /insurance/health-insurance.html 200
+/insurance/motor-insurance /insurance/motor-insurance.html 200
+/insurance/business-insurance /insurance/business-insurance.html 200
+/real-estate /real-estate.html 200
+/it-services /it-services.html 200
+/it-services/web-development /it-services/web-development.html 200
+/it-services/mobile-app-development /it-services/mobile-app-development.html 200
+/it-services/software-solutions /it-services/software-solutions.html 200
+/it-services/it-consultancy /it-services/it-consultancy.html 200
+/* /index.html 200

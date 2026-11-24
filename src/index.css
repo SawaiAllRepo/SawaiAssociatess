@@ -1,0 +1,23 @@
+﻿/* =========================================================================
+   Sawai Associates — Global stylesheet (entry)
+   The stylesheet is split into ordered partials for maintainability.
+   Import order matters: later files override earlier ones, so keep them
+   in this sequence.
+
+   base        -> reset, variables, typography, core components & page styles
+   widgets     -> insurance cards, WhatsApp widget, premium branding
+   theme       -> design refresh, brand consistency, imagery, footer polish
+   dropdowns   -> desktop dropdown + mobile submenu behaviours
+   responsive  -> all media queries, mobile stability & final mobile nav
+
+   NOTE: Google Fonts are loaded via <link> tags in index.html (with
+   preconnect) instead of a CSS @import — keeps the font fetch off the
+   render-blocking CSS chain.
+   ========================================================================= */
+
+@import "./styles/base.css";
+@import "./styles/widgets.css";
+@import "./styles/theme.css";
+@import "./styles/dropdowns.css";
+@import "./styles/responsive.css";
+@import "./styles/enquiry-success.css";
